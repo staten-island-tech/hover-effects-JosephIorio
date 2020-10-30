@@ -1,0 +1,154 @@
+.btn {
+  background-color: yellow;
+  color: black;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.btn-yellow {
+  background-color: yellow;
+}
+
+.btn:hover {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.button {
+  background-color: yellow;
+  color: black;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  border: 0.1rem solid black;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  background-color: #5d4037;
+}
+
+html .header-name,
+body .header-name {
+  background-color: #ffffff;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+html .header-name:hover,
+body .header-name:hover {
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  -webkit-transform: scaleY(0.3);
+          transform: scaleY(0.3);
+}
+
+html .button,
+body .button {
+  background-color: yellow;
+  color: black;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  border: 1rem solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .button:hover,
+body .button:hover {
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+html .btn-yellow,
+body .btn-yellow {
+  border: 1rem solid grey;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+}
+
+html .btn-yellow:hover,
+body .btn-yellow:hover {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.img {
+  padding: 1.5rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 20%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.img2 {
+  padding: 1.5rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 15%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img2:hover {
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
+/*# sourceMappingURL=styles.css.map */
